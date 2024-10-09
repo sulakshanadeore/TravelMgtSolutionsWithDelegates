@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesDemo", "DelegatesDemo\DelegatesDemo.csproj", "{797E4395-2716-47E4-BE4F-613F6F2607DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E0A1AA3-464C-4323-B832-A24BB1C79958} = {9E0A1AA3-464C-4323-B832-A24BB1C79958}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelModels", "TravelModels\TravelModels.csproj", "{9E0A1AA3-464C-4323-B832-A24BB1C79958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{797E4395-2716-47E4-BE4F-613F6F2607DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797E4395-2716-47E4-BE4F-613F6F2607DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797E4395-2716-47E4-BE4F-613F6F2607DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797E4395-2716-47E4-BE4F-613F6F2607DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0A1AA3-464C-4323-B832-A24BB1C79958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0A1AA3-464C-4323-B832-A24BB1C79958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0A1AA3-464C-4323-B832-A24BB1C79958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0A1AA3-464C-4323-B832-A24BB1C79958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D04E2AB-CB3C-48CE-9AEF-78BA34C50054}
+	EndGlobalSection
+EndGlobal

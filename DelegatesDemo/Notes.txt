@@ -1,0 +1,71 @@
+﻿Delegates:
+----------
+
+Class-- Methods(Behaviour)
+
+Delegates used for:
+1) type safety---signature matches (Arguments and return type of the delegate and method/s must match)
+2) Delegates when working events
+3) Multi-threading
+
+Delegates---> who acts on behalf of someone.
+
+Pointer----> points to memory location/value at the memory location.
+Similarly, a thing(delegate) that points to a method/s with the same signature.
+
+
+1)delegate is a reference type. class,method===create a object--- so we create a class object
+2) delegate is declared outside the class, so object of delegate is required.
+
+
+Steps in Library:
+1) Class
+2) Create a method in the class
+3) declare a delegate using a delegate keyword , that matches the  signature of the mehtod you will 
+invoking with the help of delegate.
+
+Steps in App:
+1) create object of class
+2) create object of delegate
+3) and to the delegate object pass the reference of the method using the object of the class.
+
+event------ > delegate-----> MEthod
+
+ev+=delegate
+op=ev(details);
+--------------------------------
+ a) 1method reference to the delegate means "Unicast Delegate".
+b) more than 1 method reference to the delegate means "MultiCast Delegate".
+
+----------------------------------------------
+
+    Person
+        Calories++;
+            (behaviour---method)
+            EatFood()
+
+                CookFood(Delegate)
+
+            Hunger          Time 
+
+
+
+    App----> Hunger event fires---> call the cookFood delegate------> eatFood() method---->
+
+
+-----------------------------------------------------------------------------
+Extension Methods:
+
+A method already exists u have to just extend the functionality without inheritance.
+
+1) Extension methods are to be written in static class
+2) The method must also be static
+3) "this" keyword is mandatory in the parameter list.
+
+
+
+
+
+
+
+
